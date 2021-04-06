@@ -1,0 +1,112 @@
+.custom {
+  margin-top: 10px;
+}
+.MuiCardMedia-root {
+  object-fit: contain;
+  width: auto;
+  height: 100px;
+}
+.custom {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+  /* margin-left: 20px; */
+}
+.MuiPaper-root {
+  margin: 10px;
+}
+.MuiCardHeader-root {
+  height: 80px;
+  max-height: 80px;
+}
+
+/* .MuiIconButton-root :hover {
+  color: tomato;
+  transition: 0.9s;
+
+  -webkit-transform: rotate(360deg);
+} */
+/* .card-edit:hover {
+  animation: glow 1s infinite alternate;
+} */
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px -10px #b35cc9;
+  }
+  to {
+    box-shadow: 0 0 10px 10px #eee9ec;
+  }
+}
+.makeStyles-root-2 {
+  width: 500px;
+  max-width: 500px;
+}
+.makeStyles-media-3 {
+  object-fit: contain;
+}
+/*      */
+.delete-icon:hover {
+  color: tomato;
+  transition: 0.9s;
+
+  -webkit-transform: rotate(360deg);
+}
+
+.heart-icon:hover {
+  color: red !important;
+  animation: heartbeat 3s infinite alternate;
+}
+/* heartbeating */
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+.smile-icon:hover {
+  color: yellow !important;
+  transition: 1.5s;
+  -webkit-transform: rotate(360deg);
+  /* animation: bounce 3s infinite alternate; */
+}
+
+/* animation for smile bounce */
+/* @keyframes bounce {
+  from {
+    top: 100px;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: 150px;
+    animation-timing-function: ease-out;
+  }
+  75% {
+    top: 75px;
+    animation-timing-function: ease-in;
+  }
+  to {
+    top: 100px;
+  }
+} */

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+#toast-container {
+  top: 70px !important;
+  right: 50px !important;
+  left: auto !important;
+}
+
+.signup-text {
+  font-family: "Grand Hotel", cursive;
+}

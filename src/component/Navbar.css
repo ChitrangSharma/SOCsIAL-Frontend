@@ -1,0 +1,59 @@
+a {
+  color: black !important;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid rgb(75, 51, 184);
+  box-shadow: 0 1px 0 0 rgb(75, 51, 184) !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid rgb(75, 51, 184) !important;
+  box-shadow: 0 1px 0 0 rgb(75, 51, 184) !important;
+}
+.topmost {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+}
+.nav-wrapper {
+  background-image: linear-gradient(
+    to left,
+    #65696f,
+    #667097,
+    #836fb7,
+    #b761c6,
+    #f43fbc
+  );
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-top: -65px;
+  /* margin-bottom: 50px; */
+  /* margin: 0 20px; */
+  /* height: auto; */
+}
+.mycard {
+  margin-top: 40px;
+}
+.auth-card {
+  margin: 10px auto;
+  padding: 2px;
+  text-align: center;
+  max-width: 400px;
+}
+.btn {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.logo__main {
+  margin: 10px auto;
+  object-fit: contain;
+  width: 250px;
+  height: auto;
+}

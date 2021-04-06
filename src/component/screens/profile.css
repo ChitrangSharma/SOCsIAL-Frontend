@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.item {
+  margin-top: 20px;
+  width: 30%;
+}
+.MuiBadge-badge {
+  width: 125px;
+  height: 80px;
+}
+.MuiBadge-badge:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.makeStyles-root-2 {
+  cursor: pointer;
+}
+
+.make__transparent {
+  width: "500px";
+  background-color: transparent !important;
+}
